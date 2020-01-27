@@ -1,0 +1,20 @@
+##########################
+# Debian Unstable/Sid 
+##########################
+
+# branche Testing
+##################
+deb http://ftp.fr.debian.org/debian/ testing main contrib non-free
+deb http://security.debian.org/ testing-security main contrib non-free 
+deb http://ftp.fr.debian.org/debian/ testing-updates main contrib non-free
+
+# branche Unstable/Sid
+#######################
+deb http://ftp.fr.debian.org/debian/ sid main contrib non-free
+
+# Experimental  (priorité basse par défaut)
+#deb http://ftp.debian.org/debian experimental main
+
+## Facultatif (+ faire : apt-get install deb-multimedia-keyring)
+#deb http://www.deb-multimedia.org sid main non-free 
+
