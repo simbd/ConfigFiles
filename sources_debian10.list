@@ -1,0 +1,32 @@
+################################################################
+# Debian 10 : Buster (stable)
+################################################################
+
+deb http://ftp.fr.debian.org/debian/ buster main contrib non-free
+deb http://security.debian.org/ buster/updates main contrib non-free
+deb http://ftp.fr.debian.org/debian/ buster-updates main contrib non-free
+
+#backport 
+deb http://ftp.debian.org/debian buster-backports main contrib non-free
+
+# Backport Multimedia (décommenter pour activer + apt install deb-multimedia-keyring) #éventuellement activer + tard
+#deb http://www.deb-multimedia.org buster main non-free
+#deb http://www.deb-multimedia.org buster-backports main
+
+###########################################
+### Facultatif
+
+# Google Chrome toujours a jour #wget -q https://dl-ssl.google.com/linux/linux_signing_key.pub -O- | apt-key add -
+#deb http://dl.google.com/linux/chrome/deb/ stable main
+
+# Google Earth #wget -q https://dl-ssl.google.com/linux/linux_signing_key.pub -O- | apt-key add -
+#deb http://dl.google.com/linux/earth/deb/ stable main
+
+# Tor Project toujours a jour #gpg --keyserver keys.gnupg.net --recv 886DDD89 gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | apt-key add - 
+#deb http://deb.torproject.org/torproject.org stable main
+
+# Virtualbox (dernière version possible) #wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | apt-key add -
+#deb http://download.virtualbox.org/virtualbox/debian buster contrib
+
+# Wine (dernière version possible) #wget https://dl.winehq.org/wine-builds/Release.key && apt-key add Release.key
+#deb https://dl.winehq.org/wine-builds/debian/ buster main
