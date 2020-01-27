@@ -1,0 +1,13 @@
+# Dépot stable officiel Ubuntu 20.04LTS
+
+deb http://fr.archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse
+deb http://fr.archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse
+deb http://fr.archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse
+deb http://security.ubuntu.com/ubuntu focal-security main restricted universe multiverse
+deb http://archive.canonical.com/ubuntu focal partner
+
+# Dépot instable (désactivé)
+#deb http://fr.archive.ubuntu.com/ubuntu/ focal-proposed main restricted universe multiverse
+
+# Dépot virtualbox
+##deb http://download.virtualbox.org/virtualbox/debian focal contrib
