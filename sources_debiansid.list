@@ -12,9 +12,10 @@ deb http://ftp.fr.debian.org/debian/ testing-updates main contrib non-free
 #######################
 deb http://ftp.fr.debian.org/debian/ sid main contrib non-free
 
+## Dépots désactivés
 # Experimental  (priorité basse par défaut)
 #deb http://ftp.debian.org/debian experimental main
 
-## Facultatif (+ faire : apt-get install deb-multimedia-keyring)
+## Dépots multimédia (+ faire : apt install deb-multimedia-keyring)
 #deb http://www.deb-multimedia.org sid main non-free 
 
