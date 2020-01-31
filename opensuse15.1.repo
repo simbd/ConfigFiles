@@ -1,85 +1,12 @@
-### Ce fichier rassemble les différents dépots pour OpenSuSe Leap 15.1 ###
+### Ce fichier rassemble les différents dépots pour OpenSuSe Leap 15.1 + dépots R ###
 
-[openSUSE-Leap-15.1-1]
-name=openSUSE-Leap-15.1-1
-enabled=0
-autorefresh=0
-baseurl=cd:/?devices=/dev/disk/by-id/ata-VBOX_CD-ROM_VB2-01700376
-path=/
-type=rpm-md
-keeppackages=0
-
-[repo-debug-non-oss]
-name=Debug Repository (Non-OSS)
-enabled=0
-autorefresh=1
-baseurl=http://download.opensuse.org/debug/distribution/leap/$releasever/repo/non-oss/
-type=NONE
-keeppackages=0
-
-[repo-debug]
-name=Debug Repository
-enabled=0
-autorefresh=1
-baseurl=http://download.opensuse.org/debug/distribution/leap/$releasever/repo/oss/
-type=NONE
-keeppackages=0
-
-[repo-debug-update-non-oss]
-name=Update Repository (Debug, Non-OSS)
-enabled=0
-autorefresh=1
-baseurl=http://download.opensuse.org/debug/update/leap/$releasever/non-oss/
-type=NONE
-keeppackages=0
-
-[repo-debug-update]
-name=Update Repository (Debug)
-enabled=0
-autorefresh=1
-baseurl=http://download.opensuse.org/debug/update/leap/$releasever/oss/
-type=NONE
-keeppackages=0
-
-[repo-non-oss]
-name=Dépôt Non-OSS
-enabled=1
-autorefresh=1
-baseurl=http://download.opensuse.org/distribution/leap/$releasever/repo/non-oss/
-path=/
-type=rpm-md
-keeppackages=0
-
-[repo-oss]
-name=Dépôt principal
-enabled=1
-autorefresh=1
-baseurl=http://download.opensuse.org/distribution/leap/$releasever/repo/oss/
-path=/
-type=rpm-md
-keeppackages=0
-
-[repo-source-non-oss]
-name=Source Repository (Non-OSS)
-enabled=0
-autorefresh=1
-baseurl=http://download.opensuse.org/source/distribution/leap/$releasever/repo/non-oss/
-type=NONE
-keeppackages=0
-
-[repo-source]
-name=Source Repository
-enabled=0
-autorefresh=1
-baseurl=http://download.opensuse.org/source/distribution/leap/$releasever/repo/oss/
-type=NONE
-keeppackages=0
+# Dépots activés
 
 [repo-update-non-oss]
 name=Dépôt de mises à jour (Non-OSS)
 enabled=1
 autorefresh=1
-baseurl=http://download.opensuse.org/update/leap/$releasever/non-oss/
+baseurl=http://download.opensuse.org/update/leap/15.1/non-oss/
 path=/
 type=rpm-md
 keeppackages=0
@@ -88,7 +15,25 @@ keeppackages=0
 name=Dépôt principal de mise à jour
 enabled=1
 autorefresh=1
-baseurl=http://download.opensuse.org/update/leap/$releasever/oss
+baseurl=http://download.opensuse.org/update/leap/15.1/oss
+path=/
+type=rpm-md
+keeppackages=0
+
+[repo-non-oss]
+name=Dépôt Non-OSS
+enabled=1
+autorefresh=1
+baseurl=http://download.opensuse.org/distribution/leap/15.1/repo/non-oss/
+path=/
+type=rpm-md
+keeppackages=0
+
+[repo-oss]
+name=Dépôt principal
+enabled=1
+autorefresh=1
+baseurl=http://download.opensuse.org/distribution/leap/15.1/repo/oss/
 path=/
 type=rpm-md
 keeppackages=0
@@ -100,4 +45,54 @@ autorefresh=1
 baseurl=https://download.opensuse.org/repositories/devel:/languages:/R:/released/openSUSE_Leap_15.1/
 path=/
 type=rpm-md
+keeppackages=0
+
+# Dépots désactivés
+
+[repo-debug-non-oss]
+name=Debug Repository (Non-OSS)
+enabled=0
+autorefresh=1
+baseurl=http://download.opensuse.org/debug/distribution/leap/15.1/repo/non-oss/
+type=NONE
+keeppackages=0
+
+[repo-debug]
+name=Debug Repository
+enabled=0
+autorefresh=1
+baseurl=http://download.opensuse.org/debug/distribution/leap/15.1/repo/oss/
+type=NONE
+keeppackages=0
+
+[repo-debug-update-non-oss]
+name=Update Repository (Debug, Non-OSS)
+enabled=0
+autorefresh=1
+baseurl=http://download.opensuse.org/debug/update/leap/15.1/non-oss/
+type=NONE
+keeppackages=0
+
+[repo-debug-update]
+name=Update Repository (Debug)
+enabled=0
+autorefresh=1
+baseurl=http://download.opensuse.org/debug/update/leap/15.1/oss/
+type=NONE
+keeppackages=0
+
+[repo-source-non-oss]
+name=Source Repository (Non-OSS)
+enabled=0
+autorefresh=1
+baseurl=http://download.opensuse.org/source/distribution/leap/15.1/repo/non-oss/
+type=NONE
+keeppackages=0
+
+[repo-source]
+name=Source Repository
+enabled=0
+autorefresh=1
+baseurl=http://download.opensuse.org/source/distribution/leap/15.1/repo/oss/
+type=NONE
 keeppackages=0
