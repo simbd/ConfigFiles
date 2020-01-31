@@ -6,8 +6,12 @@ deb http://fr.archive.ubuntu.com/ubuntu/ focal-backports main restricted univers
 deb http://security.ubuntu.com/ubuntu focal-security main restricted universe multiverse
 deb http://archive.canonical.com/ubuntu focal partner
 
-# Dépot instable (désactivé)
+
+### Autres dépots désactivés
+
+## Update proposed
 #deb http://fr.archive.ubuntu.com/ubuntu/ focal-proposed main restricted universe multiverse
 
-# Dépot virtualbox
-##deb http://download.virtualbox.org/virtualbox/debian focal contrib
+### Dépot virtualbox
+##[ +faire => wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add - ]
+#deb http://download.virtualbox.org/virtualbox/debian focal contrib
