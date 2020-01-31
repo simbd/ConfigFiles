@@ -92,3 +92,12 @@ baseurl=http://download.opensuse.org/update/leap/$releasever/oss
 path=/
 type=rpm-md
 keeppackages=0
+
+[depot_R]
+name=depot_R
+enabled=1
+autorefresh=1
+baseurl=https://download.opensuse.org/repositories/devel:/languages:/R:/released/openSUSE_Leap_15.1/
+path=/
+type=rpm-md
+keeppackages=0
