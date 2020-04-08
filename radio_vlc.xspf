@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Liste de lecture</title>
+	<trackList>
+		<track>
+			<location>http://direct.franceinter.fr/live/franceinter-midfi.mp3</location>
+			<title>France-Inter</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://african1paris.ice.infomaniak.ch/african1paris-128.mp3</location>
+			<title>Afica N°1 Paris</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://e1-live-mp3-128.scdn.arkena.com/europe1.mp3</location>
+			<title>Europe 1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://direct.francebleu.fr/live/fb1071-midfi.mp3</location>
+			<title>France-Bleue-107.1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://broadcast.infomaniak.net/radioclassique-high.mp3</location>
+			<title>Radio Classique</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://listen.radionomy.com/radio-wassoulou-internationale?d=YWQ9cmFkaW9ubzUmcmVmZXJlcj1odHRwJTNBJTJGJTJGcmFkaW8td2Fzc291bG91LWludGVybmF0aW9uYWxlLnBsYXl0aGVyYWRpby5jb20lMkY=</location>
+			<title>Radio Wassoulou Internationale</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://rfi-monde-96k.scdn.arkena.com/rfimonde-96k.mp3</location>
+			<title>RFI Monde</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://direct.fipradio.fr/live/fip-midfi.mp3</location>
+			<title>FIP</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://stream3.laut.fm/radiojazz</location>
+			<title>Jazz</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://voltagelounge.bcast.infomaniak.ch/voltagelounge-128.mp3</location>
+			<title>Voltage Lounge</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://zenorad.io:10210/;214238468346843stream.nsv</location>
+			<title>Radio Badenya Mali</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>10</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://213.136.96.14:8000/nostalgie.mp3</location>
+			<title>Nostalgie CIV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>11</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://streaming.radio.rtl.fr/rtl-1-44-96</location>
+			<title>RTL</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>12</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://direct.fipradio.fr/live/fip-webradio5.mp3</location>
+			<title>FIP Nouveauté</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>13</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://direct.fipradio.fr/live/fip-webradio2.mp3</location>
+			<title>FIP Jazz</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>14</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://direct.fipradio.fr/live/fip-webradio4.mp3</location>
+			<title>FIP Monde</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>15</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://direct.franceculture.fr/live/franceculture-midfi.mp3</location>
+			<title>France Culture</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>16</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://stream.srg-ssr.ch/m/rsc_fr/aacp_96</location>
+			<title>Radio Suisse Classique</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>17</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://sc6.shoutcaststreaming.us:8016</location>
+			<title>Nippon Blue Heron Radio</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>18</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://radio.chinesemusicworld.com:8202/</location>
+			<title>Chinese Classical Music</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>19</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:item tid="0"/>
+			<vlc:item tid="1"/>
+			<vlc:item tid="2"/>
+			<vlc:item tid="3"/>
+			<vlc:item tid="4"/>
+			<vlc:item tid="5"/>
+			<vlc:item tid="6"/>
+			<vlc:item tid="7"/>
+			<vlc:item tid="8"/>
+			<vlc:item tid="9"/>
+			<vlc:item tid="10"/>
+			<vlc:item tid="11"/>
+			<vlc:item tid="12"/>
+			<vlc:item tid="13"/>
+			<vlc:item tid="14"/>
+			<vlc:item tid="15"/>
+			<vlc:item tid="16"/>
+			<vlc:item tid="17"/>
+			<vlc:item tid="18"/>
+			<vlc:item tid="19"/>
+	</extension>
+</playlist>
