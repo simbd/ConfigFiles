@@ -1,0 +1,6 @@
+# Permet d'avoir la version de Firefox d'Ubuntu sous Mint (plus rapidement à jour)
+# Ce fichier est à placer dans le répertoire : /etc/apt/preferences.d/ 
+
+Package: firefox*
+Pin: release o=Ubuntu
+Pin-Priority: 990
