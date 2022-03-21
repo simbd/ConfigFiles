@@ -1,0 +1,5 @@
+# Ce fichier de pref abaisse au minimale la priorité du paquet Firefox de Canonical qui redirige maintenant vers sa version Snap
+# (Permet donc d'utiliser Firefox en paquet deb depuis un autre dépot comme un PPA ou autre sans se faire voler la priorité)
+Package: firefox*
+Pin: release o=Ubuntu
+Pin-Priority: 1
