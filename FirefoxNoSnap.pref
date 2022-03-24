@@ -1,5 +1,5 @@
-# Ce fichier de pref abaisse au minimale la priorité du paquet Firefox de Canonical qui redirige maintenant vers sa version Snap
-# (Permet donc d'utiliser Firefox en paquet deb depuis un autre dépot comme un PPA ou autre sans se faire voler la priorité)
+# Ce fichier de pref augmente la priorité du PPA de Firefox team sécurité afin qu'il ai priorité sur le paquet des dépots (qui redirige maintenant vers sa version Snap)
+# (Permet donc d'utiliser Firefox en paquet deb via le PPA plutot que le Snap)
 Package: firefox*
 Pin: release o=LP-PPA-ubuntu-mozilla-security
 Pin-Priority: 999
